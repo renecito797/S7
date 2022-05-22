@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="S7.Registrar">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="REGISTRO!"></Label>
+                <Entry x:Name="txtNombre" Placeholder="Ingrese nombre:" ></Entry>
+                <Entry x:Name="txtUsuario" Placeholder="Ingrese usuario:" ></Entry>
+                <Entry x:Name="txtContrasena" Placeholder="Ingrese contrasena:" ></Entry>
+                <Button x:Name="btnRegistro" Text="REGISTRO" Clicked="btnRegistro_Clicked"></Button>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
